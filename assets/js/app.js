@@ -3,7 +3,7 @@ let precio = 400000
 let precioSpan = document.querySelector(".precio-inicial");
 precioSpan.innerHTML = precio;
 
-const total = document.getElementById("cantidad");
+const total = document.querySelector(".cantidad");
 let count = 0;
 
 function incremento(){
