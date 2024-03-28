@@ -6,7 +6,7 @@ precioSpan.innerHTML = precio;
 const total = document.querySelector(".cantidad");
 let count = 0;
 
-function incremento(){
+const incremento = () =>{
   count++;
   total.innerHTML = count;
   let resultado = precio * count;
@@ -14,7 +14,7 @@ function incremento(){
   valorSpan.innerHTML = resultado;
 }
 
-function disminucion(){
+const disminucion = () =>{
   count--;
   total.innerHTML = count;
   let resultado = precio * count;
